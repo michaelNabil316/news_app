@@ -9,7 +9,7 @@ import 'Data/dio_serviecs.dart';
 import 'business_logic/dark_mode_bloc/bloc.dart';
 import 'business_logic/dark_mode_bloc/shared_pref.dart';
 import 'business_logic/dark_mode_bloc/states.dart';
-import 'presentation/screens/home_screen.dart';
+import 'presentation/screens/on_boarding_pages.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
                 darkModeCubit.isDarkMode ? ThemeMode.dark : ThemeMode.light,
             theme: customLightThemeData,
             darkTheme: customDarkThemeData,
-            home: const MyHomeScreen(),
+            home: const OnBoarding(),
           );
         },
       ),

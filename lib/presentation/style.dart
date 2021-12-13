@@ -6,6 +6,7 @@ final customLightThemeData = ThemeData(
   primaryColor: Colors.orange,
   scaffoldBackgroundColor: Colors.white,
   appBarTheme: const AppBarTheme(
+    iconTheme: IconThemeData(color: Colors.black),
     titleTextStyle: TextStyle(
         color: Colors.black, fontSize: 20.0, fontWeight: FontWeight.bold),
     backgroundColor: Colors.white,
@@ -40,6 +41,7 @@ final customDarkThemeData = ThemeData(
   primaryColor: Colors.orange,
   scaffoldBackgroundColor: HexColor('#5b5b5b'),
   appBarTheme: AppBarTheme(
+    iconTheme: const IconThemeData(color: Colors.white),
     titleTextStyle: const TextStyle(
       color: Colors.white,
       fontSize: 20.0,

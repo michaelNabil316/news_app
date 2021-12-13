@@ -23,6 +23,7 @@ class ScienceScreen extends StatelessWidget {
             title: bsBloc[index]['title'],
             date: bsBloc[index]['publishedAt'],
             imgUrl: bsBloc[index]['urlToImage'] ?? imgIfNull,
+            path: bsBloc[index]['url'],
           ),
           separatorBuilder: (context, index) => const SeperatedContainer(),
         );
